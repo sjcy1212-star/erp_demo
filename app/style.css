@@ -188,3 +188,4 @@ body.help [data-help]:hover::after, body.help [data-help].show::after {
 .ai-result.ok { background: var(--primary-pale); color: var(--ink-deep); }
 .ai-result.warn { background: var(--warning-pale); color: var(--warning-content); }
 .ai-result.err { background: var(--negative-pale); color: var(--negative-darkest); }
+.ver { display: inline-block; margin-left: var(--sp-sm); padding: 2px 10px; border-radius: var(--r-pill); background: var(--primary-pale); color: var(--ink-deep); font-weight: 600; font-size: 12px; }
