@@ -399,5 +399,36 @@
   $("#resetNo").onclick = () => $("#resetConfirm").classList.add("hidden");
   $("#resetYes").onclick = () => { state = fresh(); Object.keys(msgs).forEach(k => delete msgs[k]); rejecting = null; formMsg.leave = ""; formMsg.adj = ""; $("#resetConfirm").classList.add("hidden"); render(); };
 
+  // ---------- 6) AI 연결 테스트 (Gemini) ----------
+  // 서버 함수 /api/gemini 를 거쳐 호출한다 (키는 서버에만 있음). 더블클릭(file://)으로 열면 서버가 없으므로 안내만 한다.
+  (function aiTest() {
+    const status = $("#aiStatus"), out = $("#aiResult"), btn = $("#aiSend"), input = $("#aiPrompt");
+    const show = (txt, kind) => { out.textContent = txt; out.className = "ai-result " + (kind || ""); };
+    if (location.protocol === "file:") {
+      status.textContent = "서버 없음"; status.className = "ai-status off"; btn.disabled = true;
+      show("이 기능은 서버가 있어야 동작합니다. 폴더에서  node dev_server.js  를 실행한 뒤 http://localhost:3000 으로 열거나, Vercel 배포 주소에서 사용하세요.", "warn");
+      return;
+    }
+    fetch("/api/gemini").then(r => r.json()).then(j => {
+      status.textContent = j.configured ? `키 설정됨 · ${j.model}` : "키 없음";
+      status.className = "ai-status " + (j.configured ? "ok" : "off");
+      if (!j.configured) show("서버에 GEMINI_API_KEY 가 없습니다. 로컬은 .env, Vercel은 Settings → Environment Variables 에 넣고 다시 배포하세요.", "warn");
+    }).catch(() => { status.textContent = "서버 응답 없음"; status.className = "ai-status off"; });
+    btn.onclick = async () => {
+      const prompt = input.value.trim(); if (!prompt) return;
+      btn.disabled = true; show("Gemini 응답을 기다리는 중…");
+      try {
+        const r = await fetch("/api/gemini", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt }) });
+        const j = await r.json();
+        if (j.ok) show(`✓ 연결 성공 (${j.model}, ${j.ms}ms)
+
+${j.text || "(빈 응답)"}`, "ok");
+        else show("✗ 실패: " + (j.error || r.status), "err");
+      } catch (e) { show("✗ 서버에 연결하지 못했습니다: " + e.message, "err"); }
+      btn.disabled = false;
+    };
+    input.addEventListener("keydown", e => { if (e.key === "Enter") btn.click(); });
+  })();
+
   render();
 })();

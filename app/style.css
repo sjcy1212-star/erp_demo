@@ -176,3 +176,15 @@ body.help [data-help]:hover::after, body.help [data-help].show::after {
   h1 { font-size: 32px; } main h2 { font-size: 24px; } .wrap { padding: var(--sp-lg) var(--sp-md) var(--sp-2xl); }
   .box, main, .form, .detail { padding: var(--sp-lg); border-radius: var(--r-lg); }
 }
+
+/* ---------- AI 연결 테스트 (Gemini) ---------- */
+.ai-row { display: flex; gap: var(--sp-sm); align-items: center; flex-wrap: wrap; }
+.ai-input { flex: 1 1 320px; height: 40px; padding: 0 var(--sp-lg); border: 1px solid var(--hairline); border-radius: var(--r-md); background: var(--canvas); }
+.ai-input:focus { outline: 2px solid var(--primary); border-color: transparent; }
+.ai-status { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: var(--r-pill); background: var(--canvas-soft); color: var(--body); white-space: nowrap; }
+.ai-status.ok { background: var(--primary-pale); color: var(--ink-deep); }
+.ai-status.off { background: var(--negative-pale); color: var(--negative-darkest); }
+.ai-result { margin: var(--sp-md) 0 0; padding: var(--sp-md) var(--sp-lg); border-radius: var(--r-md); background: var(--canvas-soft); white-space: pre-wrap; word-break: break-word; font: inherit; }
+.ai-result.ok { background: var(--primary-pale); color: var(--ink-deep); }
+.ai-result.warn { background: var(--warning-pale); color: var(--warning-content); }
+.ai-result.err { background: var(--negative-pale); color: var(--negative-darkest); }

@@ -18,6 +18,17 @@
 1. [vercel.com](https://vercel.com) → **Add New → Project** → 이 GitHub 저장소 선택
 2. Framework Preset은 **Other** 그대로, Build Command·Output Directory는 비워 두고 **Deploy**
 3. 배포 주소 `/` 가 큰 앱, `/erp_small` 이 작은 앱입니다. (`vercel.json`·`.vercelignore`가 설정을 담당)
+4. **AI 연결 테스트**를 쓰려면 Vercel 프로젝트 **Settings → Environment Variables** 에 `GEMINI_API_KEY` 를 넣고 다시 배포합니다.
+
+### AI 연결 테스트 (Gemini) — 로컬에서 확인
+
+큰 앱 화면의 **"AI 연결 테스트 (Gemini)"** 칸은 서버에 넣어 둔 API 키가 잘 연결되는지 확인하는 용도입니다.
+브라우저는 키를 모르고, 서버 함수 `api/gemini.js` 가 대신 Gemini를 부릅니다.
+
+1. 폴더에 `.env` 파일을 만들고 `GEMINI_API_KEY=발급받은키` 한 줄을 적습니다. (**절대 공유·업로드 금지**, git에는 올라가지 않음)
+2. `node dev_server.js` 실행 → http://localhost:3000 열기 (설치할 것 없음, Node 18 이상)
+3. "Gemini에 보내기"를 누르면 아래에 `✓ 연결 성공 (gemini-3.6-flash, ○○ms)` 와 답변이 나옵니다.
+   - 더블클릭(file://)으로 연 화면에서는 서버가 없어 이 칸만 비활성화되고, 나머지 기능은 그대로 동작합니다.
 
 ## 폴더 구성
 
@@ -34,6 +45,8 @@
 | `erp_small/app.js`, `erp_small/style.css` | 작은 앱의 동작·디자인 (PRD.md·DESIGN2.MD 기준) |
 | `tests/check.js` | 작은 앱 자동 검사 17개 (PRD 6.2 A1~A10 + 문구·유지·등록·폼유지·말풍선·스크롤·오류) |
 | `vercel.json`, `.vercelignore` | Vercel 배포 설정 (정적 사이트, 미사용/·docs/ 제외) |
+| `api/gemini.js` | Gemini 연결 테스트 서버 함수 (Vercel Serverless). `.env`/환경변수의 `GEMINI_API_KEY` 사용 |
+| `dev_server.js` | 로컬 확인용 작은 서버 (`node dev_server.js` → localhost:3000). 정적 파일 + `/api/gemini` |
 | `docs/01_기획서.md` | 기획서 |
 | `docs/레퍼런스.md` | flex·Frappe HR·Odoo에서 참고할 기능 3가지와 출처 |
 | `docs/DESIGN.md` | (이전 기준) Cal.com 분석 기반 흑백 디자인 |

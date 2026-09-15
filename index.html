@@ -77,6 +77,19 @@
       </div>
     </section>
 
+    <section class="box" id="aiBox">
+      <div class="box-head"><h2>AI 연결 테스트 (Gemini)</h2><button class="btn sm" data-fold="aiBody">접기</button></div>
+      <div id="aiBody">
+        <p class="muted">서버에 넣어 둔 <b>GEMINI_API_KEY</b>가 제대로 연결되는지 확인하는 칸입니다. 브라우저는 키를 모르고, 서버(<code>/api/gemini</code>)가 대신 Gemini를 부릅니다. 인사 자료는 보내지 않습니다.</p>
+        <div class="ai-row">
+          <span id="aiStatus" class="ai-status">확인 중…</span>
+          <input id="aiPrompt" class="ai-input" maxlength="500" value="가온교육 인사·총무 앱에서 연결 테스트 중입니다. '연결 성공'이라고 한 문장으로 답해 주세요." data-help="Gemini에 보낼 질문입니다. 연결만 확인하는 용도라 500자까지 보낼 수 있습니다.">
+          <button class="btn primary" id="aiSend" data-help="서버를 거쳐 Gemini에 질문을 보내고 답변을 아래에 보여 줍니다.">Gemini에 보내기</button>
+        </div>
+        <pre id="aiResult" class="ai-result hidden"></pre>
+      </div>
+    </section>
+
     <nav class="tabs" id="tabs"></nav>
     <main id="main"></main>
 
