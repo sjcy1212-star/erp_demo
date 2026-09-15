@@ -1,0 +1,6751 @@
+{
+  "notice": "⚠ 교육용 가상 자료 — 실제 인물·회사와 무관",
+  "company": "㈜가온교육 (가상)",
+  "today": "2026-09-14",
+  "generatedBy": "data/generate_seed.js",
+  "holidays": {
+    "2026-08-15": "광복절",
+    "2026-08-17": "광복절 대체공휴일",
+    "2026-09-24": "추석 연휴",
+    "2026-09-25": "추석",
+    "2026-09-26": "추석 연휴",
+    "2026-10-03": "개천절",
+    "2026-10-09": "한글날"
+  },
+  "rules": {
+    "workHours": "09:00 ~ 18:00 (점심 12:00~13:00)",
+    "lateAfter": "09:00",
+    "earlyBefore": "18:00",
+    "teamLeaveRule": "같은 팀에서 같은 날 2명 이상 연차 사용 불가 (팀장 예외 승인 시 가능)",
+    "annualLeave": [
+      "입사 1년 미만: 개근한 달마다 1일 (최대 11일)",
+      "입사 1년 이상: 15일",
+      "만 3년부터 2년마다 1일 추가, 최대 25일",
+      "반차는 0.5일 차감, 병가·경조휴가는 연차 차감 없음"
+    ]
+  },
+  "employees": [
+    {
+      "id": "E-1001",
+      "name": "노은재",
+      "dept": "경영지원팀",
+      "position": "팀장",
+      "hireDate": "2018-03-02"
+    },
+    {
+      "id": "E-1002",
+      "name": "배서율",
+      "dept": "경영지원팀",
+      "position": "과장",
+      "hireDate": "2020-07-01"
+    },
+    {
+      "id": "E-1003",
+      "name": "임도하",
+      "dept": "경영지원팀",
+      "position": "대리",
+      "hireDate": "2023-09-01"
+    },
+    {
+      "id": "E-1004",
+      "name": "권시온",
+      "dept": "경영지원팀",
+      "position": "주임",
+      "hireDate": "2024-11-18"
+    },
+    {
+      "id": "E-1005",
+      "name": "장유빈",
+      "dept": "경영지원팀",
+      "position": "사원",
+      "hireDate": "2026-01-14"
+    },
+    {
+      "id": "E-1006",
+      "name": "석민호",
+      "dept": "개발팀",
+      "position": "팀장",
+      "hireDate": "2017-05-15"
+    },
+    {
+      "id": "E-1007",
+      "name": "차예린",
+      "dept": "개발팀",
+      "position": "과장",
+      "hireDate": "2019-10-07"
+    },
+    {
+      "id": "E-1008",
+      "name": "한지우",
+      "dept": "개발팀",
+      "position": "대리",
+      "hireDate": "2022-02-14"
+    },
+    {
+      "id": "E-1009",
+      "name": "도현석",
+      "dept": "개발팀",
+      "position": "대리",
+      "hireDate": "2022-08-22"
+    },
+    {
+      "id": "E-1010",
+      "name": "구하람",
+      "dept": "개발팀",
+      "position": "주임",
+      "hireDate": "2024-03-04"
+    },
+    {
+      "id": "E-1011",
+      "name": "표세인",
+      "dept": "개발팀",
+      "position": "사원",
+      "hireDate": "2025-06-02"
+    },
+    {
+      "id": "E-1012",
+      "name": "엄태준",
+      "dept": "개발팀",
+      "position": "사원",
+      "hireDate": "2026-02-14"
+    },
+    {
+      "id": "E-1013",
+      "name": "변가온",
+      "dept": "영업팀",
+      "position": "팀장",
+      "hireDate": "2016-09-01"
+    },
+    {
+      "id": "E-1014",
+      "name": "옥준서",
+      "dept": "영업팀",
+      "position": "과장",
+      "hireDate": "2019-04-08"
+    },
+    {
+      "id": "E-1015",
+      "name": "마수아",
+      "dept": "영업팀",
+      "position": "대리",
+      "hireDate": "2021-12-01"
+    },
+    {
+      "id": "E-1016",
+      "name": "빈다온",
+      "dept": "영업팀",
+      "position": "주임",
+      "hireDate": "2023-05-22"
+    },
+    {
+      "id": "E-1017",
+      "name": "탁이안",
+      "dept": "영업팀",
+      "position": "사원",
+      "hireDate": "2025-01-06"
+    },
+    {
+      "id": "E-1018",
+      "name": "선우주",
+      "dept": "영업팀",
+      "position": "사원",
+      "hireDate": "2025-09-01"
+    },
+    {
+      "id": "E-1019",
+      "name": "국소연",
+      "dept": "디자인팀",
+      "position": "팀장",
+      "hireDate": "2018-08-20"
+    },
+    {
+      "id": "E-1020",
+      "name": "명재이",
+      "dept": "디자인팀",
+      "position": "과장",
+      "hireDate": "2020-03-16"
+    },
+    {
+      "id": "E-1021",
+      "name": "피루아",
+      "dept": "디자인팀",
+      "position": "대리",
+      "hireDate": "2022-06-13"
+    },
+    {
+      "id": "E-1022",
+      "name": "감보람",
+      "dept": "디자인팀",
+      "position": "주임",
+      "hireDate": "2023-11-06"
+    },
+    {
+      "id": "E-1023",
+      "name": "온하늘",
+      "dept": "디자인팀",
+      "position": "사원",
+      "hireDate": "2024-09-02"
+    },
+    {
+      "id": "E-1024",
+      "name": "제나윤",
+      "dept": "디자인팀",
+      "position": "사원",
+      "hireDate": "2025-04-01"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "R-001",
+      "empId": "E-1001",
+      "empName": "노은재",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-02-02",
+      "end": "2026-02-03",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "이사",
+      "requestedAt": "2026-01-26",
+      "decidedAt": "2026-01-28",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-002",
+      "empId": "E-1001",
+      "empName": "노은재",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-07-27",
+      "end": "2026-07-31",
+      "days": 5,
+      "deduct": 5,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-07-20",
+      "decidedAt": "2026-07-22",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-003",
+      "empId": "E-1002",
+      "empName": "배서율",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-05-04",
+      "end": "2026-05-04",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "가족 행사",
+      "requestedAt": "2026-04-27",
+      "decidedAt": "2026-04-29",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-004",
+      "empId": "E-1002",
+      "empName": "배서율",
+      "dept": "경영지원팀",
+      "type": "반차",
+      "start": "2026-08-06",
+      "end": "2026-08-06",
+      "days": 0.5,
+      "deduct": 0.5,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-07-30",
+      "decidedAt": "2026-08-01",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-005",
+      "empId": "E-1003",
+      "empName": "임도하",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-03-20",
+      "end": "2026-03-20",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-03-13",
+      "decidedAt": "2026-03-15",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-006",
+      "empId": "E-1003",
+      "empName": "임도하",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-08-10",
+      "end": "2026-08-11",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-08-03",
+      "decidedAt": "2026-08-05",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-007",
+      "empId": "E-1004",
+      "empName": "권시온",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-06-15",
+      "end": "2026-06-16",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-06-08",
+      "decidedAt": "2026-06-10",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-008",
+      "empId": "E-1005",
+      "empName": "장유빈",
+      "dept": "경영지원팀",
+      "type": "연차",
+      "start": "2026-08-21",
+      "end": "2026-08-21",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-08-14",
+      "decidedAt": "2026-08-16",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-009",
+      "empId": "E-1006",
+      "empName": "석민호",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-01-26",
+      "end": "2026-01-30",
+      "days": 5,
+      "deduct": 5,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-01-19",
+      "decidedAt": "2026-01-21",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-010",
+      "empId": "E-1006",
+      "empName": "석민호",
+      "dept": "개발팀",
+      "type": "병가",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "days": 1,
+      "deduct": 0,
+      "status": "승인",
+      "reason": "몸살 감기",
+      "requestedAt": "2026-08-18",
+      "decidedAt": "2026-08-20",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-011",
+      "empId": "E-1007",
+      "empName": "차예린",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-04-13",
+      "end": "2026-04-14",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "가족 행사",
+      "requestedAt": "2026-04-06",
+      "decidedAt": "2026-04-08",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-012",
+      "empId": "E-1007",
+      "empName": "차예린",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-08-03",
+      "end": "2026-08-04",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-07-27",
+      "decidedAt": "2026-07-29",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-013",
+      "empId": "E-1008",
+      "empName": "한지우",
+      "dept": "개발팀",
+      "type": "반차",
+      "start": "2026-08-12",
+      "end": "2026-08-12",
+      "days": 0.5,
+      "deduct": 0.5,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-08-05",
+      "decidedAt": "2026-08-07",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-014",
+      "empId": "E-1008",
+      "empName": "한지우",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-08-28",
+      "end": "2026-08-28",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "이사",
+      "requestedAt": "2026-08-21",
+      "decidedAt": "2026-08-23",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-015",
+      "empId": "E-1009",
+      "empName": "도현석",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-07-06",
+      "end": "2026-07-08",
+      "days": 3,
+      "deduct": 3,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-06-29",
+      "decidedAt": "2026-07-01",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-016",
+      "empId": "E-1010",
+      "empName": "구하람",
+      "dept": "개발팀",
+      "type": "경조휴가",
+      "start": "2026-08-19",
+      "end": "2026-08-21",
+      "days": 3,
+      "deduct": 0,
+      "status": "승인",
+      "reason": "조부상",
+      "requestedAt": "2026-08-12",
+      "decidedAt": "2026-08-14",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-017",
+      "empId": "E-1011",
+      "empName": "표세인",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-08-13",
+      "end": "2026-08-14",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-08-06",
+      "decidedAt": "2026-08-08",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-018",
+      "empId": "E-1012",
+      "empName": "엄태준",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-06-15",
+      "end": "2026-06-17",
+      "days": 3,
+      "deduct": 3,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-06-08",
+      "decidedAt": "2026-06-10",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-019",
+      "empId": "E-1012",
+      "empName": "엄태준",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-08-31",
+      "end": "2026-09-02",
+      "days": 3,
+      "deduct": 3,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-08-24",
+      "decidedAt": "2026-08-26",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-020",
+      "empId": "E-1013",
+      "empName": "변가온",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-02-16",
+      "end": "2026-02-20",
+      "days": 5,
+      "deduct": 5,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-02-09",
+      "decidedAt": "2026-02-11",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-021",
+      "empId": "E-1014",
+      "empName": "옥준서",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-08-05",
+      "end": "2026-08-07",
+      "days": 3,
+      "deduct": 3,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-07-29",
+      "decidedAt": "2026-07-31",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-022",
+      "empId": "E-1015",
+      "empName": "마수아",
+      "dept": "영업팀",
+      "type": "반차",
+      "start": "2026-08-18",
+      "end": "2026-08-18",
+      "days": 0.5,
+      "deduct": 0.5,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-08-11",
+      "decidedAt": "2026-08-13",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-023",
+      "empId": "E-1016",
+      "empName": "빈다온",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-06-01",
+      "end": "2026-06-02",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-05-25",
+      "decidedAt": "2026-05-27",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-024",
+      "empId": "E-1016",
+      "empName": "빈다온",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "이사",
+      "requestedAt": "2026-08-28",
+      "decidedAt": "2026-08-30",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-025",
+      "empId": "E-1017",
+      "empName": "탁이안",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-08-24",
+      "end": "2026-08-24",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "가족 행사",
+      "requestedAt": "2026-08-17",
+      "decidedAt": "2026-08-19",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-026",
+      "empId": "E-1018",
+      "empName": "선우주",
+      "dept": "영업팀",
+      "type": "연차",
+      "start": "2026-08-31",
+      "end": "2026-08-31",
+      "days": 1,
+      "deduct": 1,
+      "status": "승인",
+      "reason": "병원 진료",
+      "requestedAt": "2026-08-24",
+      "decidedAt": "2026-08-26",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-027",
+      "empId": "E-1019",
+      "empName": "국소연",
+      "dept": "디자인팀",
+      "type": "연차",
+      "start": "2026-03-02",
+      "end": "2026-03-06",
+      "days": 5,
+      "deduct": 5,
+      "status": "승인",
+      "reason": "가족 행사",
+      "requestedAt": "2026-02-23",
+      "decidedAt": "2026-02-25",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-028",
+      "empId": "E-1020",
+      "empName": "명재이",
+      "dept": "디자인팀",
+      "type": "연차",
+      "start": "2026-08-10",
+      "end": "2026-08-12",
+      "days": 3,
+      "deduct": 3,
+      "status": "승인",
+      "reason": "휴식",
+      "requestedAt": "2026-08-03",
+      "decidedAt": "2026-08-05",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-029",
+      "empId": "E-1021",
+      "empName": "피루아",
+      "dept": "디자인팀",
+      "type": "병가",
+      "start": "2026-09-02",
+      "end": "2026-09-03",
+      "days": 2,
+      "deduct": 0,
+      "status": "승인",
+      "reason": "몸살 감기",
+      "requestedAt": "2026-08-26",
+      "decidedAt": "2026-08-28",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-030",
+      "empId": "E-1022",
+      "empName": "감보람",
+      "dept": "디자인팀",
+      "type": "연차",
+      "start": "2026-08-27",
+      "end": "2026-08-28",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-08-20",
+      "decidedAt": "2026-08-22",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-031",
+      "empId": "E-1023",
+      "empName": "온하늘",
+      "dept": "디자인팀",
+      "type": "반차",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "days": 0.5,
+      "deduct": 0.5,
+      "status": "승인",
+      "reason": "이사",
+      "requestedAt": "2026-09-02",
+      "decidedAt": "2026-09-04",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-032",
+      "empId": "E-1024",
+      "empName": "제나윤",
+      "dept": "디자인팀",
+      "type": "연차",
+      "start": "2026-07-13",
+      "end": "2026-07-14",
+      "days": 2,
+      "deduct": 2,
+      "status": "승인",
+      "reason": "개인 사유",
+      "requestedAt": "2026-07-06",
+      "decidedAt": "2026-07-08",
+      "decisionNote": "승인"
+    },
+    {
+      "id": "R-033",
+      "empId": "E-1008",
+      "empName": "한지우",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
+      "days": 1,
+      "deduct": 1,
+      "status": "대기",
+      "reason": "가족 행사",
+      "requestedAt": "2026-09-10",
+      "decidedAt": null,
+      "decisionNote": ""
+    },
+    {
+      "id": "R-034",
+      "empId": "E-1015",
+      "empName": "마수아",
+      "dept": "영업팀",
+      "type": "반차",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "days": 0.5,
+      "deduct": 0.5,
+      "status": "대기",
+      "reason": "병원 진료",
+      "requestedAt": "2026-09-11",
+      "decidedAt": null,
+      "decisionNote": ""
+    },
+    {
+      "id": "R-035",
+      "empId": "E-1010",
+      "empName": "구하람",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
+      "days": 1,
+      "deduct": 1,
+      "status": "대기",
+      "reason": "휴식",
+      "requestedAt": "2026-09-11",
+      "decidedAt": null,
+      "decisionNote": ""
+    },
+    {
+      "id": "R-036",
+      "empId": "E-1012",
+      "empName": "엄태준",
+      "dept": "개발팀",
+      "type": "연차",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "days": 3,
+      "deduct": 3,
+      "status": "대기",
+      "reason": "여행",
+      "requestedAt": "2026-09-14",
+      "decidedAt": null,
+      "decisionNote": ""
+    },
+    {
+      "id": "R-037",
+      "empId": "E-1023",
+      "empName": "온하늘",
+      "dept": "디자인팀",
+      "type": "연차",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "days": 1,
+      "deduct": 1,
+      "status": "대기",
+      "reason": "개인 사유",
+      "requestedAt": "2026-09-14",
+      "decidedAt": null,
+      "decisionNote": ""
+    }
+  ],
+  "attendance": [
+    {
+      "date": "2026-08-03",
+      "empId": "E-1001",
+      "checkIn": "08:37",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1002",
+      "checkIn": "08:39",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1003",
+      "checkIn": "08:36",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1004",
+      "checkIn": "09:09",
+      "checkOut": "18:26",
+      "status": "지각",
+      "note": "지각 9분"
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1005",
+      "checkIn": "08:39",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1006",
+      "checkIn": "08:57",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1007",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1008",
+      "checkIn": "08:50",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1009",
+      "checkIn": "08:42",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1010",
+      "checkIn": "09:26",
+      "checkOut": "18:37",
+      "status": "지각",
+      "note": "지각 26분"
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1011",
+      "checkIn": "08:56",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1012",
+      "checkIn": "09:14",
+      "checkOut": "18:36",
+      "status": "지각",
+      "note": "지각 14분"
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1013",
+      "checkIn": "08:58",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1014",
+      "checkIn": "08:46",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1015",
+      "checkIn": "08:59",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1016",
+      "checkIn": "08:39",
+      "checkOut": "16:43",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1017",
+      "checkIn": "08:51",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1018",
+      "checkIn": "08:49",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1019",
+      "checkIn": "08:51",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1020",
+      "checkIn": "08:59",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1021",
+      "checkIn": "08:59",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1022",
+      "checkIn": "08:52",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1023",
+      "checkIn": "08:44",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-03",
+      "empId": "E-1024",
+      "checkIn": "08:56",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1001",
+      "checkIn": "08:41",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1002",
+      "checkIn": "08:53",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1003",
+      "checkIn": "08:57",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1004",
+      "checkIn": "08:36",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1005",
+      "checkIn": "08:38",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1006",
+      "checkIn": "08:52",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1007",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1008",
+      "checkIn": "08:44",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1009",
+      "checkIn": "08:45",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1010",
+      "checkIn": "09:09",
+      "checkOut": "18:47",
+      "status": "지각",
+      "note": "지각 9분"
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1011",
+      "checkIn": "08:59",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1012",
+      "checkIn": "08:39",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1013",
+      "checkIn": "08:44",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1014",
+      "checkIn": "08:45",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1015",
+      "checkIn": "08:42",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1016",
+      "checkIn": "08:40",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1017",
+      "checkIn": "08:38",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1018",
+      "checkIn": "08:44",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1019",
+      "checkIn": "08:39",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1020",
+      "checkIn": "08:40",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1021",
+      "checkIn": "08:39",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1022",
+      "checkIn": "09:24",
+      "checkOut": "18:49",
+      "status": "지각",
+      "note": "지각 24분"
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1023",
+      "checkIn": "08:45",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-04",
+      "empId": "E-1024",
+      "checkIn": "08:43",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1001",
+      "checkIn": "09:13",
+      "checkOut": "18:48",
+      "status": "지각",
+      "note": "지각 13분"
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1002",
+      "checkIn": "08:44",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1003",
+      "checkIn": "08:37",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1004",
+      "checkIn": "08:41",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1005",
+      "checkIn": "08:44",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1006",
+      "checkIn": "08:50",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1007",
+      "checkIn": "08:51",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1008",
+      "checkIn": "08:55",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1009",
+      "checkIn": "08:50",
+      "checkOut": "17:39",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1010",
+      "checkIn": "08:54",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1011",
+      "checkIn": "08:58",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1012",
+      "checkIn": "08:38",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1013",
+      "checkIn": "08:36",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1014",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1015",
+      "checkIn": "08:47",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1016",
+      "checkIn": "08:45",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1017",
+      "checkIn": "08:49",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1018",
+      "checkIn": "08:42",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1019",
+      "checkIn": "08:51",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1020",
+      "checkIn": "08:43",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1021",
+      "checkIn": "09:08",
+      "checkOut": "18:36",
+      "status": "지각",
+      "note": "지각 8분"
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1022",
+      "checkIn": "08:53",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1023",
+      "checkIn": "08:53",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-05",
+      "empId": "E-1024",
+      "checkIn": "09:06",
+      "checkOut": "18:01",
+      "status": "지각",
+      "note": "지각 6분"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1001",
+      "checkIn": "08:54",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1002",
+      "checkIn": "13:04",
+      "checkOut": "18:14",
+      "status": "반차",
+      "note": "오후 출근(반차)"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1003",
+      "checkIn": "08:54",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1004",
+      "checkIn": "09:23",
+      "checkOut": "18:25",
+      "status": "지각",
+      "note": "지각 23분"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1005",
+      "checkIn": "09:25",
+      "checkOut": "18:27",
+      "status": "지각",
+      "note": "지각 25분"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1006",
+      "checkIn": "08:54",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1007",
+      "checkIn": "08:39",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1008",
+      "checkIn": "08:40",
+      "checkOut": "17:51",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1009",
+      "checkIn": "08:59",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1010",
+      "checkIn": "08:46",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1011",
+      "checkIn": "08:39",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1012",
+      "checkIn": "08:57",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1013",
+      "checkIn": "08:47",
+      "checkOut": "15:41",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1014",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1015",
+      "checkIn": "08:50",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1016",
+      "checkIn": "08:58",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1017",
+      "checkIn": "08:49",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1018",
+      "checkIn": "08:38",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1019",
+      "checkIn": "08:58",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1020",
+      "checkIn": "08:46",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1021",
+      "checkIn": "08:48",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1022",
+      "checkIn": "09:23",
+      "checkOut": "18:40",
+      "status": "지각",
+      "note": "지각 23분"
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1023",
+      "checkIn": "08:44",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-06",
+      "empId": "E-1024",
+      "checkIn": "08:53",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1001",
+      "checkIn": "08:49",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1002",
+      "checkIn": "08:42",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1003",
+      "checkIn": "08:54",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1004",
+      "checkIn": "08:52",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1005",
+      "checkIn": "08:41",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1006",
+      "checkIn": "08:56",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1007",
+      "checkIn": "08:56",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1008",
+      "checkIn": "08:37",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1009",
+      "checkIn": "08:38",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1010",
+      "checkIn": "08:35",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1011",
+      "checkIn": "08:58",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1012",
+      "checkIn": "08:46",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1013",
+      "checkIn": "08:38",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1014",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1015",
+      "checkIn": "08:43",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1016",
+      "checkIn": "08:35",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1017",
+      "checkIn": "08:48",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1018",
+      "checkIn": "08:51",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1019",
+      "checkIn": "08:59",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1020",
+      "checkIn": "08:48",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1021",
+      "checkIn": "08:59",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1022",
+      "checkIn": "08:38",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1023",
+      "checkIn": "08:57",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-07",
+      "empId": "E-1024",
+      "checkIn": "08:57",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1001",
+      "checkIn": "08:49",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1002",
+      "checkIn": "08:51",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1003",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1004",
+      "checkIn": "08:39",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1005",
+      "checkIn": "08:37",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1006",
+      "checkIn": "08:57",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1007",
+      "checkIn": "08:56",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1008",
+      "checkIn": "08:40",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1009",
+      "checkIn": "08:42",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1010",
+      "checkIn": "09:32",
+      "checkOut": "18:17",
+      "status": "지각",
+      "note": "지각 32분"
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1011",
+      "checkIn": "08:48",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1012",
+      "checkIn": "08:46",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1014",
+      "checkIn": "08:35",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1015",
+      "checkIn": "08:54",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1016",
+      "checkIn": "08:36",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1017",
+      "checkIn": "08:36",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1018",
+      "checkIn": "08:58",
+      "checkOut": "15:12",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1019",
+      "checkIn": "08:45",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1020",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1021",
+      "checkIn": "08:38",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1022",
+      "checkIn": "08:46",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1023",
+      "checkIn": "08:40",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-10",
+      "empId": "E-1024",
+      "checkIn": "08:39",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1001",
+      "checkIn": "08:53",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1002",
+      "checkIn": "08:52",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1003",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1004",
+      "checkIn": "08:50",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1005",
+      "checkIn": "08:54",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1006",
+      "checkIn": "08:56",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1007",
+      "checkIn": "08:54",
+      "checkOut": "16:16",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1008",
+      "checkIn": "08:43",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1009",
+      "checkIn": "08:44",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1010",
+      "checkIn": "08:35",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1011",
+      "checkIn": "08:46",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1012",
+      "checkIn": "08:47",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1013",
+      "checkIn": "08:54",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1014",
+      "checkIn": "08:49",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1015",
+      "checkIn": "08:58",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1016",
+      "checkIn": "09:30",
+      "checkOut": "18:06",
+      "status": "지각",
+      "note": "지각 30분"
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1017",
+      "checkIn": "08:54",
+      "checkOut": "16:24",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1018",
+      "checkIn": "08:50",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1019",
+      "checkIn": "08:52",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1020",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1021",
+      "checkIn": "08:37",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1022",
+      "checkIn": "08:47",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1023",
+      "checkIn": "08:55",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-11",
+      "empId": "E-1024",
+      "checkIn": "08:37",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1001",
+      "checkIn": "08:36",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1002",
+      "checkIn": "08:58",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1003",
+      "checkIn": "08:52",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1004",
+      "checkIn": "08:41",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1005",
+      "checkIn": "08:35",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1006",
+      "checkIn": "08:51",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1007",
+      "checkIn": "08:51",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1008",
+      "checkIn": "13:03",
+      "checkOut": "18:02",
+      "status": "반차",
+      "note": "오후 출근(반차)"
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1009",
+      "checkIn": "08:38",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1010",
+      "checkIn": "09:10",
+      "checkOut": "18:27",
+      "status": "지각",
+      "note": "지각 10분"
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1011",
+      "checkIn": "08:48",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1012",
+      "checkIn": "08:59",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1013",
+      "checkIn": "08:43",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1014",
+      "checkIn": "08:45",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1015",
+      "checkIn": "08:44",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1016",
+      "checkIn": "08:56",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1017",
+      "checkIn": "08:57",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1018",
+      "checkIn": "08:55",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1019",
+      "checkIn": "08:36",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1020",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1021",
+      "checkIn": "08:59",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1022",
+      "checkIn": "08:51",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1023",
+      "checkIn": "08:55",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-12",
+      "empId": "E-1024",
+      "checkIn": "08:58",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1001",
+      "checkIn": "08:49",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1002",
+      "checkIn": "08:48",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1003",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1004",
+      "checkIn": "08:58",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1005",
+      "checkIn": "08:56",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1006",
+      "checkIn": "09:06",
+      "checkOut": "18:11",
+      "status": "지각",
+      "note": "지각 6분"
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1007",
+      "checkIn": "08:52",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1008",
+      "checkIn": "09:22",
+      "checkOut": "18:01",
+      "status": "지각",
+      "note": "지각 22분"
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1009",
+      "checkIn": "08:35",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1010",
+      "checkIn": "08:40",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1011",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1012",
+      "checkIn": "08:59",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1013",
+      "checkIn": "08:36",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1014",
+      "checkIn": "08:51",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1015",
+      "checkIn": "08:51",
+      "checkOut": "17:26",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1016",
+      "checkIn": "08:48",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1017",
+      "checkIn": "08:46",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1018",
+      "checkIn": "08:40",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1019",
+      "checkIn": "08:52",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1020",
+      "checkIn": "08:48",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1021",
+      "checkIn": "08:50",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1022",
+      "checkIn": "08:57",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1023",
+      "checkIn": "08:40",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-13",
+      "empId": "E-1024",
+      "checkIn": "08:50",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1001",
+      "checkIn": "08:47",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1002",
+      "checkIn": "08:39",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1003",
+      "checkIn": "08:40",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1004",
+      "checkIn": "08:56",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1005",
+      "checkIn": "08:46",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1006",
+      "checkIn": "08:35",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1007",
+      "checkIn": "08:39",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1008",
+      "checkIn": "08:36",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1009",
+      "checkIn": "08:49",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1010",
+      "checkIn": "08:57",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1011",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1012",
+      "checkIn": "08:44",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1013",
+      "checkIn": "08:40",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1014",
+      "checkIn": "08:50",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1015",
+      "checkIn": "08:55",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1016",
+      "checkIn": "08:43",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1017",
+      "checkIn": "08:42",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1018",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1019",
+      "checkIn": "08:36",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1020",
+      "checkIn": "08:47",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1021",
+      "checkIn": "08:56",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1022",
+      "checkIn": "08:47",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1023",
+      "checkIn": "08:54",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-14",
+      "empId": "E-1024",
+      "checkIn": "08:47",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1001",
+      "checkIn": "08:42",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1002",
+      "checkIn": "08:46",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1003",
+      "checkIn": "08:40",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1004",
+      "checkIn": "08:45",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1005",
+      "checkIn": "08:38",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1006",
+      "checkIn": "08:38",
+      "checkOut": "18:11",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1007",
+      "checkIn": "08:51",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1008",
+      "checkIn": "08:47",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1009",
+      "checkIn": "08:54",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1010",
+      "checkIn": "08:56",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1011",
+      "checkIn": "08:56",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1012",
+      "checkIn": "08:45",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1014",
+      "checkIn": "08:57",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1015",
+      "checkIn": "13:01",
+      "checkOut": "18:19",
+      "status": "반차",
+      "note": "오후 출근(반차)"
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1016",
+      "checkIn": "08:58",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1017",
+      "checkIn": "08:49",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1018",
+      "checkIn": "08:38",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1019",
+      "checkIn": "08:36",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1020",
+      "checkIn": "08:50",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1021",
+      "checkIn": "08:49",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1022",
+      "checkIn": "08:45",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1023",
+      "checkIn": "08:43",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-18",
+      "empId": "E-1024",
+      "checkIn": "08:50",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1001",
+      "checkIn": "08:41",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1002",
+      "checkIn": "08:38",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1003",
+      "checkIn": "08:43",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1004",
+      "checkIn": "08:53",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1005",
+      "checkIn": "08:51",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1006",
+      "checkIn": "08:50",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1007",
+      "checkIn": "08:55",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1008",
+      "checkIn": "08:57",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1009",
+      "checkIn": "08:39",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1010",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "경조휴가"
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1011",
+      "checkIn": "08:43",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1012",
+      "checkIn": "08:47",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1013",
+      "checkIn": "08:39",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1014",
+      "checkIn": "08:55",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1015",
+      "checkIn": "08:49",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1016",
+      "checkIn": "08:43",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1017",
+      "checkIn": "09:31",
+      "checkOut": "18:05",
+      "status": "지각",
+      "note": "지각 31분"
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1018",
+      "checkIn": "08:46",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1019",
+      "checkIn": "08:50",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1020",
+      "checkIn": "08:44",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1021",
+      "checkIn": "08:42",
+      "checkOut": "16:47",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1022",
+      "checkIn": "08:55",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1023",
+      "checkIn": "08:48",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-19",
+      "empId": "E-1024",
+      "checkIn": "08:46",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1001",
+      "checkIn": "08:57",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1002",
+      "checkIn": "08:52",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1003",
+      "checkIn": "08:43",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1004",
+      "checkIn": "08:44",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1005",
+      "checkIn": "08:51",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1006",
+      "checkIn": "08:57",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1007",
+      "checkIn": "08:45",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1008",
+      "checkIn": "08:50",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1009",
+      "checkIn": "08:38",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1010",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "경조휴가"
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1011",
+      "checkIn": "08:45",
+      "checkOut": "17:51",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1012",
+      "checkIn": "08:51",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1014",
+      "checkIn": "08:40",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1015",
+      "checkIn": "08:59",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1016",
+      "checkIn": "08:49",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1017",
+      "checkIn": "08:36",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1018",
+      "checkIn": "08:50",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1019",
+      "checkIn": "08:53",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1020",
+      "checkIn": "08:53",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1021",
+      "checkIn": "08:52",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1022",
+      "checkIn": "08:48",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1023",
+      "checkIn": "08:39",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-20",
+      "empId": "E-1024",
+      "checkIn": "08:48",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1001",
+      "checkIn": "08:56",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1002",
+      "checkIn": "08:49",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1003",
+      "checkIn": "08:36",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1004",
+      "checkIn": "09:18",
+      "checkOut": "18:06",
+      "status": "지각",
+      "note": "지각 18분"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1005",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1006",
+      "checkIn": "08:41",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1007",
+      "checkIn": "09:20",
+      "checkOut": "18:02",
+      "status": "지각",
+      "note": "지각 20분"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1008",
+      "checkIn": "08:56",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1009",
+      "checkIn": "08:47",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1010",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "경조휴가"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1011",
+      "checkIn": "08:45",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1012",
+      "checkIn": "08:58",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1014",
+      "checkIn": "08:46",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1015",
+      "checkIn": "09:25",
+      "checkOut": "18:15",
+      "status": "지각",
+      "note": "지각 25분"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1016",
+      "checkIn": "08:38",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1017",
+      "checkIn": "08:54",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1018",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1019",
+      "checkIn": "08:40",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1020",
+      "checkIn": "08:57",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1021",
+      "checkIn": "08:42",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1022",
+      "checkIn": "08:36",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1023",
+      "checkIn": "08:40",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-21",
+      "empId": "E-1024",
+      "checkIn": "08:44",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1001",
+      "checkIn": "08:47",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1002",
+      "checkIn": "08:35",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1003",
+      "checkIn": "08:46",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1004",
+      "checkIn": "08:59",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1005",
+      "checkIn": "08:44",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1006",
+      "checkIn": "08:40",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1007",
+      "checkIn": "08:40",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1008",
+      "checkIn": "08:48",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1009",
+      "checkIn": "08:59",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1010",
+      "checkIn": "08:44",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1011",
+      "checkIn": "08:48",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1012",
+      "checkIn": "08:57",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1013",
+      "checkIn": "08:39",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1014",
+      "checkIn": "08:48",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1015",
+      "checkIn": "08:59",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1016",
+      "checkIn": "08:50",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1017",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1018",
+      "checkIn": "08:35",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1019",
+      "checkIn": "08:48",
+      "checkOut": "18:11",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1020",
+      "checkIn": "08:49",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1021",
+      "checkIn": "08:55",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1022",
+      "checkIn": "08:50",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1023",
+      "checkIn": "08:58",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-24",
+      "empId": "E-1024",
+      "checkIn": "08:45",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1001",
+      "checkIn": "08:45",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1002",
+      "checkIn": "08:45",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1003",
+      "checkIn": "08:59",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1004",
+      "checkIn": "08:50",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1005",
+      "checkIn": "08:35",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1006",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "병가"
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1007",
+      "checkIn": "09:21",
+      "checkOut": "18:34",
+      "status": "지각",
+      "note": "지각 21분"
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1008",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1009",
+      "checkIn": "08:37",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1010",
+      "checkIn": "08:52",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1011",
+      "checkIn": "08:38",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1012",
+      "checkIn": "08:38",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1013",
+      "checkIn": "08:41",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1014",
+      "checkIn": "08:43",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1015",
+      "checkIn": "08:43",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1016",
+      "checkIn": "08:41",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1017",
+      "checkIn": "08:41",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1018",
+      "checkIn": "08:40",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1019",
+      "checkIn": "09:05",
+      "checkOut": "18:04",
+      "status": "지각",
+      "note": "지각 5분"
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1020",
+      "checkIn": "08:44",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1021",
+      "checkIn": "08:38",
+      "checkOut": "16:20",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1022",
+      "checkIn": "08:50",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1023",
+      "checkIn": "08:36",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-25",
+      "empId": "E-1024",
+      "checkIn": "08:38",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1001",
+      "checkIn": "08:48",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1002",
+      "checkIn": "08:56",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1003",
+      "checkIn": "08:51",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1004",
+      "checkIn": "08:35",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1005",
+      "checkIn": "08:36",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1006",
+      "checkIn": "08:42",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1007",
+      "checkIn": "08:54",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1008",
+      "checkIn": "08:59",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1009",
+      "checkIn": "08:38",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1010",
+      "checkIn": "08:45",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1011",
+      "checkIn": "08:58",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1012",
+      "checkIn": "08:36",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1014",
+      "checkIn": "08:41",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1015",
+      "checkIn": "08:41",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1016",
+      "checkIn": "08:43",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1017",
+      "checkIn": "08:56",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1018",
+      "checkIn": "08:53",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1019",
+      "checkIn": "08:43",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1020",
+      "checkIn": "08:43",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1021",
+      "checkIn": "08:55",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1022",
+      "checkIn": "08:46",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1023",
+      "checkIn": "08:44",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-26",
+      "empId": "E-1024",
+      "checkIn": "08:43",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1001",
+      "checkIn": "08:52",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1002",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1003",
+      "checkIn": "08:50",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1004",
+      "checkIn": "08:40",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1005",
+      "checkIn": "08:38",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1006",
+      "checkIn": "08:47",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1007",
+      "checkIn": "09:07",
+      "checkOut": "18:47",
+      "status": "지각",
+      "note": "지각 7분"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1008",
+      "checkIn": "08:48",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1009",
+      "checkIn": "08:48",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1010",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1011",
+      "checkIn": "09:18",
+      "checkOut": "18:26",
+      "status": "지각",
+      "note": "지각 18분"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1012",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1013",
+      "checkIn": "08:41",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1014",
+      "checkIn": "08:59",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1015",
+      "checkIn": "08:41",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1016",
+      "checkIn": "08:39",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1017",
+      "checkIn": "08:45",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1018",
+      "checkIn": "09:12",
+      "checkOut": "18:39",
+      "status": "지각",
+      "note": "지각 12분"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1019",
+      "checkIn": "08:37",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1020",
+      "checkIn": "08:37",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1021",
+      "checkIn": "08:59",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1022",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1023",
+      "checkIn": "08:44",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-27",
+      "empId": "E-1024",
+      "checkIn": "08:41",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1001",
+      "checkIn": "08:35",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1002",
+      "checkIn": "08:52",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1003",
+      "checkIn": "08:39",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1004",
+      "checkIn": "09:21",
+      "checkOut": "18:00",
+      "status": "지각",
+      "note": "지각 21분"
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1005",
+      "checkIn": "08:36",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1006",
+      "checkIn": "08:58",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1007",
+      "checkIn": "08:35",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1008",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1009",
+      "checkIn": "08:36",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1010",
+      "checkIn": "08:53",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1011",
+      "checkIn": "08:46",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1012",
+      "checkIn": "08:49",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1013",
+      "checkIn": "08:50",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1014",
+      "checkIn": "08:54",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1015",
+      "checkIn": "08:59",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1016",
+      "checkIn": "08:47",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1017",
+      "checkIn": "08:49",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1018",
+      "checkIn": "08:44",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1019",
+      "checkIn": "08:50",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1020",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1021",
+      "checkIn": "08:39",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1022",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1023",
+      "checkIn": "08:59",
+      "checkOut": "18:11",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-28",
+      "empId": "E-1024",
+      "checkIn": "08:56",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1001",
+      "checkIn": "08:48",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1002",
+      "checkIn": "08:58",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1003",
+      "checkIn": "08:48",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1004",
+      "checkIn": "08:57",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1005",
+      "checkIn": "08:45",
+      "checkOut": "16:20",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1006",
+      "checkIn": "08:39",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1007",
+      "checkIn": "08:36",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1008",
+      "checkIn": "08:41",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1009",
+      "checkIn": "08:42",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1010",
+      "checkIn": "08:41",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1011",
+      "checkIn": "08:49",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1012",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1013",
+      "checkIn": "08:43",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1014",
+      "checkIn": "08:36",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1015",
+      "checkIn": "08:57",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1016",
+      "checkIn": "08:41",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1017",
+      "checkIn": "08:46",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1018",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1019",
+      "checkIn": "08:55",
+      "checkOut": "18:44",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1020",
+      "checkIn": "08:58",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1021",
+      "checkIn": "08:46",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1022",
+      "checkIn": "08:39",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1023",
+      "checkIn": "08:40",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-08-31",
+      "empId": "E-1024",
+      "checkIn": "08:55",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1001",
+      "checkIn": "08:59",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1002",
+      "checkIn": "08:41",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1003",
+      "checkIn": "08:52",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1004",
+      "checkIn": "08:40",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1005",
+      "checkIn": "08:45",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1006",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1007",
+      "checkIn": "08:56",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1008",
+      "checkIn": "08:46",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1009",
+      "checkIn": "08:54",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1010",
+      "checkIn": "08:58",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1011",
+      "checkIn": "08:51",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1012",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1013",
+      "checkIn": "08:52",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1014",
+      "checkIn": "08:47",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1015",
+      "checkIn": "08:40",
+      "checkOut": "17:38",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1016",
+      "checkIn": "08:46",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1017",
+      "checkIn": "08:58",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1018",
+      "checkIn": "08:46",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1019",
+      "checkIn": "08:57",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1020",
+      "checkIn": "08:39",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1021",
+      "checkIn": "08:47",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1022",
+      "checkIn": "08:40",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1023",
+      "checkIn": "08:48",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "empId": "E-1024",
+      "checkIn": "08:56",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1001",
+      "checkIn": "08:53",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1002",
+      "checkIn": "08:36",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1003",
+      "checkIn": "08:59",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1004",
+      "checkIn": "08:53",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1005",
+      "checkIn": "08:36",
+      "checkOut": "18:38",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1006",
+      "checkIn": "08:37",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1007",
+      "checkIn": "08:35",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1008",
+      "checkIn": "09:12",
+      "checkOut": "18:01",
+      "status": "지각",
+      "note": "지각 12분"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1009",
+      "checkIn": "08:46",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1010",
+      "checkIn": "08:46",
+      "checkOut": "18:42",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1011",
+      "checkIn": "08:56",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1012",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1013",
+      "checkIn": "08:35",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1014",
+      "checkIn": "08:38",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1015",
+      "checkIn": "08:44",
+      "checkOut": "17:12",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1016",
+      "checkIn": "08:41",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1017",
+      "checkIn": "09:27",
+      "checkOut": "18:45",
+      "status": "지각",
+      "note": "지각 27분"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1018",
+      "checkIn": "08:36",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1019",
+      "checkIn": "08:59",
+      "checkOut": "15:06",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1020",
+      "checkIn": "08:40",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1021",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "병가"
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1022",
+      "checkIn": "08:38",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1023",
+      "checkIn": "08:37",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "empId": "E-1024",
+      "checkIn": "08:47",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1001",
+      "checkIn": "08:38",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1002",
+      "checkIn": "08:55",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1003",
+      "checkIn": "08:35",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1004",
+      "checkIn": "09:13",
+      "checkOut": "18:00",
+      "status": "지각",
+      "note": "지각 13분"
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1005",
+      "checkIn": "08:53",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1006",
+      "checkIn": "08:53",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1007",
+      "checkIn": "08:35",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1008",
+      "checkIn": "08:58",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1009",
+      "checkIn": "08:40",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1010",
+      "checkIn": "08:43",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1011",
+      "checkIn": "08:59",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1012",
+      "checkIn": "08:52",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1013",
+      "checkIn": "08:35",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1014",
+      "checkIn": "08:53",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1015",
+      "checkIn": "08:36",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1016",
+      "checkIn": "09:25",
+      "checkOut": "18:34",
+      "status": "지각",
+      "note": "지각 25분"
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1017",
+      "checkIn": "08:47",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1018",
+      "checkIn": "08:58",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1019",
+      "checkIn": "08:53",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1020",
+      "checkIn": "08:35",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1021",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "병가"
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1022",
+      "checkIn": "08:52",
+      "checkOut": "18:05",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1023",
+      "checkIn": "08:56",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-03",
+      "empId": "E-1024",
+      "checkIn": "08:35",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1001",
+      "checkIn": "08:56",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1002",
+      "checkIn": "08:39",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1003",
+      "checkIn": "08:53",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1004",
+      "checkIn": "08:51",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1005",
+      "checkIn": "08:58",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1006",
+      "checkIn": "08:48",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1007",
+      "checkIn": "08:59",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1008",
+      "checkIn": "08:37",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1009",
+      "checkIn": "08:36",
+      "checkOut": "18:35",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1010",
+      "checkIn": "08:44",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1011",
+      "checkIn": "08:52",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1012",
+      "checkIn": "09:27",
+      "checkOut": "18:35",
+      "status": "지각",
+      "note": "지각 27분"
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1013",
+      "checkIn": "08:48",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1014",
+      "checkIn": "08:42",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1015",
+      "checkIn": "08:49",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1016",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "휴가",
+      "note": "연차"
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1017",
+      "checkIn": "08:50",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1018",
+      "checkIn": "08:45",
+      "checkOut": "18:39",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1019",
+      "checkIn": "08:59",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1020",
+      "checkIn": "08:47",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1021",
+      "checkIn": "08:45",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1022",
+      "checkIn": "08:49",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1023",
+      "checkIn": "08:47",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-04",
+      "empId": "E-1024",
+      "checkIn": "08:57",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1001",
+      "checkIn": "08:42",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1002",
+      "checkIn": "08:48",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1003",
+      "checkIn": "08:46",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1004",
+      "checkIn": "08:36",
+      "checkOut": "16:57",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1005",
+      "checkIn": "08:40",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1006",
+      "checkIn": "08:52",
+      "checkOut": "18:17",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1007",
+      "checkIn": "08:38",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1008",
+      "checkIn": "08:47",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1009",
+      "checkIn": "08:56",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1010",
+      "checkIn": "08:40",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1011",
+      "checkIn": "08:36",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1012",
+      "checkIn": "08:38",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1013",
+      "checkIn": "08:43",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1014",
+      "checkIn": "09:03",
+      "checkOut": "18:28",
+      "status": "지각",
+      "note": "지각 3분"
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1015",
+      "checkIn": "08:44",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1016",
+      "checkIn": "08:41",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1017",
+      "checkIn": "08:44",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1018",
+      "checkIn": "08:50",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1019",
+      "checkIn": "08:48",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1020",
+      "checkIn": "08:46",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1021",
+      "checkIn": "08:54",
+      "checkOut": "18:21",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1022",
+      "checkIn": "08:58",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1023",
+      "checkIn": "08:46",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-07",
+      "empId": "E-1024",
+      "checkIn": "08:36",
+      "checkOut": "17:31",
+      "status": "조퇴",
+      "note": "조퇴(개인 사유)"
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1001",
+      "checkIn": "09:29",
+      "checkOut": "18:00",
+      "status": "지각",
+      "note": "지각 29분"
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1002",
+      "checkIn": "08:53",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1003",
+      "checkIn": "08:55",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1004",
+      "checkIn": "08:56",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1005",
+      "checkIn": "08:55",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1006",
+      "checkIn": "08:37",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1007",
+      "checkIn": "08:51",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1008",
+      "checkIn": "08:49",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1009",
+      "checkIn": "08:53",
+      "checkOut": "18:18",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1010",
+      "checkIn": "08:43",
+      "checkOut": "18:27",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1011",
+      "checkIn": "08:51",
+      "checkOut": "18:43",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1012",
+      "checkIn": "08:38",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1013",
+      "checkIn": "08:56",
+      "checkOut": "18:03",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1014",
+      "checkIn": "08:37",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1015",
+      "checkIn": "08:49",
+      "checkOut": "18:40",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1016",
+      "checkIn": "08:51",
+      "checkOut": "18:28",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1017",
+      "checkIn": "08:46",
+      "checkOut": "18:41",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1018",
+      "checkIn": "08:44",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1019",
+      "checkIn": "08:52",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1020",
+      "checkIn": "08:56",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1021",
+      "checkIn": "08:44",
+      "checkOut": "18:36",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1022",
+      "checkIn": "08:35",
+      "checkOut": "18:12",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1023",
+      "checkIn": "09:15",
+      "checkOut": "18:27",
+      "status": "지각",
+      "note": "지각 15분"
+    },
+    {
+      "date": "2026-09-08",
+      "empId": "E-1024",
+      "checkIn": "08:46",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1001",
+      "checkIn": "08:55",
+      "checkOut": "18:34",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1002",
+      "checkIn": "08:54",
+      "checkOut": "18:09",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1003",
+      "checkIn": "08:43",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1004",
+      "checkIn": "09:06",
+      "checkOut": "18:37",
+      "status": "지각",
+      "note": "지각 6분"
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1005",
+      "checkIn": "08:42",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1006",
+      "checkIn": "08:36",
+      "checkOut": "18:26",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1007",
+      "checkIn": "08:48",
+      "checkOut": "18:10",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1008",
+      "checkIn": "08:41",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1009",
+      "checkIn": "08:48",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1010",
+      "checkIn": "08:39",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1011",
+      "checkIn": "08:57",
+      "checkOut": "18:37",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1012",
+      "checkIn": "08:57",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1013",
+      "checkIn": "08:47",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1014",
+      "checkIn": "08:42",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1015",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "결근",
+      "note": "무단결근"
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1016",
+      "checkIn": "08:38",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1017",
+      "checkIn": "08:41",
+      "checkOut": "18:00",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1018",
+      "checkIn": "08:36",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1019",
+      "checkIn": "08:38",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1020",
+      "checkIn": "09:06",
+      "checkOut": "18:07",
+      "status": "지각",
+      "note": "지각 6분"
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1021",
+      "checkIn": "08:43",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1022",
+      "checkIn": "08:37",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1023",
+      "checkIn": "13:02",
+      "checkOut": "18:12",
+      "status": "반차",
+      "note": "오후 출근(반차)"
+    },
+    {
+      "date": "2026-09-09",
+      "empId": "E-1024",
+      "checkIn": "08:57",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1001",
+      "checkIn": "08:53",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1002",
+      "checkIn": "08:37",
+      "checkOut": "18:15",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1003",
+      "checkIn": "08:37",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1004",
+      "checkIn": "08:52",
+      "checkOut": "18:47",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1005",
+      "checkIn": "08:54",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1006",
+      "checkIn": "08:45",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1007",
+      "checkIn": "08:48",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1008",
+      "checkIn": "08:35",
+      "checkOut": "18:24",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1009",
+      "checkIn": "08:39",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1010",
+      "checkIn": "08:36",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1011",
+      "checkIn": "08:44",
+      "checkOut": "18:31",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1012",
+      "checkIn": "08:51",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1013",
+      "checkIn": "09:09",
+      "checkOut": "18:45",
+      "status": "지각",
+      "note": "지각 9분"
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1014",
+      "checkIn": "08:55",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1015",
+      "checkIn": "08:40",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1016",
+      "checkIn": "08:38",
+      "checkOut": "18:11",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1017",
+      "checkIn": "08:41",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1018",
+      "checkIn": "08:46",
+      "checkOut": "18:33",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1019",
+      "checkIn": "08:35",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1020",
+      "checkIn": "08:38",
+      "checkOut": "18:30",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1021",
+      "checkIn": "08:51",
+      "checkOut": "18:23",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1022",
+      "checkIn": "08:58",
+      "checkOut": "18:48",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1023",
+      "checkIn": "09:06",
+      "checkOut": "18:14",
+      "status": "지각",
+      "note": "지각 6분"
+    },
+    {
+      "date": "2026-09-10",
+      "empId": "E-1024",
+      "checkIn": "08:45",
+      "checkOut": "18:32",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1001",
+      "checkIn": "08:57",
+      "checkOut": "18:46",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1002",
+      "checkIn": "08:52",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1003",
+      "checkIn": "08:51",
+      "checkOut": "18:01",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1004",
+      "checkIn": "08:43",
+      "checkOut": "18:45",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1005",
+      "checkIn": "09:27",
+      "checkOut": "18:18",
+      "status": "지각",
+      "note": "지각 27분"
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1006",
+      "checkIn": "08:54",
+      "checkOut": "18:49",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1007",
+      "checkIn": "08:54",
+      "checkOut": "18:11",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1008",
+      "checkIn": "09:17",
+      "checkOut": "18:41",
+      "status": "지각",
+      "note": "지각 17분"
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1009",
+      "checkIn": "09:18",
+      "checkOut": "18:10",
+      "status": "지각",
+      "note": "지각 18분"
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1010",
+      "checkIn": "08:39",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1011",
+      "checkIn": "08:38",
+      "checkOut": "18:25",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1012",
+      "checkIn": "08:48",
+      "checkOut": "18:19",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1013",
+      "checkIn": "08:54",
+      "checkOut": "18:22",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1014",
+      "checkIn": "08:35",
+      "checkOut": "18:04",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1015",
+      "checkIn": "08:53",
+      "checkOut": "18:08",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1016",
+      "checkIn": "08:46",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1017",
+      "checkIn": "08:47",
+      "checkOut": "18:06",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1018",
+      "checkIn": "08:47",
+      "checkOut": "18:07",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1019",
+      "checkIn": "08:45",
+      "checkOut": "18:02",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1020",
+      "checkIn": "08:42",
+      "checkOut": "18:14",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1021",
+      "checkIn": "08:42",
+      "checkOut": "18:29",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1022",
+      "checkIn": "08:40",
+      "checkOut": "18:13",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1023",
+      "checkIn": "08:44",
+      "checkOut": "18:16",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "empId": "E-1024",
+      "checkIn": "08:39",
+      "checkOut": "18:20",
+      "status": "정상",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1001",
+      "checkIn": "08:38",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1002",
+      "checkIn": "08:52",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1003",
+      "checkIn": "08:48",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1004",
+      "checkIn": "08:47",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1005",
+      "checkIn": "08:41",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1006",
+      "checkIn": "08:44",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1007",
+      "checkIn": "08:41",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1008",
+      "checkIn": "08:45",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1009",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "미확정",
+      "note": "출근 기록 없음"
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1010",
+      "checkIn": "08:38",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1011",
+      "checkIn": "08:43",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1012",
+      "checkIn": "08:54",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1013",
+      "checkIn": "08:53",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1014",
+      "checkIn": "08:38",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1015",
+      "checkIn": "08:40",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1016",
+      "checkIn": "08:54",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1017",
+      "checkIn": "09:10",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1018",
+      "checkIn": "08:44",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1019",
+      "checkIn": "08:44",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1020",
+      "checkIn": "08:42",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1021",
+      "checkIn": "08:47",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1022",
+      "checkIn": "08:42",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1023",
+      "checkIn": "08:51",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "empId": "E-1024",
+      "checkIn": "08:42",
+      "checkOut": null,
+      "status": "미확정",
+      "note": ""
+    }
+  ],
+  "leaveSummary": [
+    {
+      "empId": "E-1001",
+      "months": 102,
+      "entitled": 18,
+      "used": 7,
+      "remaining": 11
+    },
+    {
+      "empId": "E-1002",
+      "months": 74,
+      "entitled": 17,
+      "used": 1.5,
+      "remaining": 15.5
+    },
+    {
+      "empId": "E-1003",
+      "months": 36,
+      "entitled": 16,
+      "used": 3,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1004",
+      "months": 21,
+      "entitled": 15,
+      "used": 2,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1005",
+      "months": 8,
+      "entitled": 8,
+      "used": 1,
+      "remaining": 7
+    },
+    {
+      "empId": "E-1006",
+      "months": 111,
+      "entitled": 19,
+      "used": 5,
+      "remaining": 14
+    },
+    {
+      "empId": "E-1007",
+      "months": 83,
+      "entitled": 17,
+      "used": 4,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1008",
+      "months": 55,
+      "entitled": 16,
+      "used": 1.5,
+      "remaining": 14.5
+    },
+    {
+      "empId": "E-1009",
+      "months": 48,
+      "entitled": 16,
+      "used": 3,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1010",
+      "months": 30,
+      "entitled": 15,
+      "used": 0,
+      "remaining": 15
+    },
+    {
+      "empId": "E-1011",
+      "months": 15,
+      "entitled": 15,
+      "used": 2,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1012",
+      "months": 7,
+      "entitled": 7,
+      "used": 6,
+      "remaining": 1
+    },
+    {
+      "empId": "E-1013",
+      "months": 120,
+      "entitled": 19,
+      "used": 5,
+      "remaining": 14
+    },
+    {
+      "empId": "E-1014",
+      "months": 89,
+      "entitled": 18,
+      "used": 3,
+      "remaining": 15
+    },
+    {
+      "empId": "E-1015",
+      "months": 57,
+      "entitled": 16,
+      "used": 0.5,
+      "remaining": 15.5
+    },
+    {
+      "empId": "E-1016",
+      "months": 39,
+      "entitled": 16,
+      "used": 3,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1017",
+      "months": 20,
+      "entitled": 15,
+      "used": 1,
+      "remaining": 14
+    },
+    {
+      "empId": "E-1018",
+      "months": 12,
+      "entitled": 15,
+      "used": 1,
+      "remaining": 14
+    },
+    {
+      "empId": "E-1019",
+      "months": 96,
+      "entitled": 18,
+      "used": 5,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1020",
+      "months": 77,
+      "entitled": 17,
+      "used": 3,
+      "remaining": 14
+    },
+    {
+      "empId": "E-1021",
+      "months": 51,
+      "entitled": 16,
+      "used": 0,
+      "remaining": 16
+    },
+    {
+      "empId": "E-1022",
+      "months": 34,
+      "entitled": 15,
+      "used": 2,
+      "remaining": 13
+    },
+    {
+      "empId": "E-1023",
+      "months": 24,
+      "entitled": 15,
+      "used": 0.5,
+      "remaining": 14.5
+    },
+    {
+      "empId": "E-1024",
+      "months": 17,
+      "entitled": 15,
+      "used": 2,
+      "remaining": 13
+    }
+  ],
+  "missionKeys": {
+    "m1_devTeamCount": 7,
+    "m2_missingCheckInEmp": "E-1009",
+    "m3_lateEmp": "E-1017",
+    "m4_emp": "E-1005",
+    "m4_answer": 8,
+    "m5_emp": "E-1003",
+    "m5_answer": 16,
+    "m6_requests": {
+      "approve": [
+        "R-033",
+        "R-034"
+      ],
+      "reject": [
+        "R-035"
+      ]
+    },
+    "m7_request": "R-036",
+    "m8_month": "2026-08",
+    "m8_summary": {
+      "workdays": 20,
+      "late": 26,
+      "early": 12,
+      "absent": 8,
+      "leave": 23,
+      "half": 3
+    }
+  }
+}

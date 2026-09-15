@@ -1,0 +1,12 @@
+# Vercel 배포에서 제외 — 앱 실행에 필요 없는 것들
+미사용/
+docs/
+data/generate_seed.js
+data/generate_small.js
+data/seed.json
+data/가상_인사총무.json
+data/README.md
+DESIGN.md
+claude.md
+.env
+.env.*

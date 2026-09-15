@@ -1,0 +1,89 @@
+<!-- 교육용 가상 자료 — 이 앱의 회사·인물·수치는 모두 교육 목적으로 만든 가상의 것이며 실제 인물·회사와 무관합니다. -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>가온교육 인사·총무 근태 앱 시연 — 교육용 가상 자료</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/style.css">
+</head>
+<body>
+  <div class="notice">교육용 가상 자료 — 실제 인사 정보가 아닙니다 · 회사·직원·기록은 모두 지어낸 것입니다</div>
+
+  <div class="wrap">
+    <header class="head">
+      <div>
+        <h1>가온교육 인사·총무 근태 앱</h1>
+        <p class="sub">가상 회사 "가온교육(주)"의 직원·근태·휴가·월간 집계를 한 화면에서 다루는 작은 ERP 시연</p>
+      </div>
+      <div class="head-btns">
+        <button class="btn" id="btnHelp" data-help="이 버튼을 켜면 화면의 버튼·표·배지 위에 마우스를 올렸을 때 설명이 나옵니다.">? 설명 보기</button>
+        <button class="btn danger-outline" id="btnReset">가상 데이터 초기화</button>
+      </div>
+    </header>
+    <div id="resetConfirm" class="confirm hidden">
+      지금까지 바꾼 내용을 모두 지우고 처음 가상 자료로 되돌립니다. 계속할까요?
+      <button class="btn sm" id="resetNo">취소</button><button class="btn sm danger" id="resetYes">초기화</button>
+    </div>
+
+    <section class="box" id="introBox">
+      <div class="box-head"><h2>이 앱은 무엇인가요?</h2><button class="btn sm" data-fold="introBody">접기</button></div>
+      <div id="introBody">
+        <p><b>Claude Code로 만든 교육용 예제</b>입니다. 서버·로그인 없이 브라우저 안에서만 도는 작은 인사·총무 앱으로, "업무 앱이 자료를 어떻게 연결하고 규칙을 어떻게 지키는지"를 보여 주기 위해 만들었습니다. 모든 값은 지어낸 가상 자료입니다.</p>
+        <div class="intro-grid">
+          <div class="intro-col">
+            <h3>화면(탭)별 역할</h3>
+            <ul>
+              <li><b>직원</b> — 가상 임직원 24명 조회. 이름을 누르면 그 사람의 연차 히스토리(부여·사용·조정)·근태·휴가가 한 번에 보이고, 사유를 적어 연차를 조정할 수 있습니다.</li>
+              <li><b>근태</b> — 날짜별 출퇴근 시각과 상태(정상·지각·조퇴·결근)를 확인하고 확정합니다.</li>
+              <li><b>휴가</b> — 휴가 신청 37건. 대기 건을 승인·반려하고, 새 신청을 등록합니다.</li>
+              <li><b>집계</b> — 월별 지각·조퇴·결근 합계를 보고, 확인이 끝난 달을 마감합니다.</li>
+            </ul>
+          </div>
+          <div class="intro-col">
+            <h3>자료가 연결되는 방법</h3>
+            <p>모든 기록은 <b>사번</b>(예: E-1009)으로 이어집니다. 근태·휴가 표에는 사번만 있고, 화면에 보이는 이름은 직원 표에서 찾아 붙입니다. 그래서 직원 상세에서 근태와 휴가를 함께 볼 수 있습니다.</p>
+            <p class="formula">직원 ──사번──▶ 근태 · 휴가 · 집계</p>
+          </div>
+          <div class="intro-col">
+            <h3>계산 규칙</h3>
+            <ul>
+              <li><b>남은 연차 = 부여 − 승인된 사용일수 + 조정.</b> 대기·반려는 빼지 않습니다. 반차는 0.5일, 병가·경조휴가는 빼지 않습니다. 조정은 사유가 있어야 저장됩니다.</li>
+              <li><b>부여 연차</b>는 입사일로 계산합니다. 1년 미만은 개근한 달마다 1일, 1년 이상 15일, 만 3년부터 2년마다 1일(최대 25일).</li>
+              <li><b>지각</b> = 09:00 이후 출근, <b>조퇴</b> = 18:00 이전 퇴근. "규칙상 판정"은 참고값이고 최종 상태는 담당자가 확정합니다.</li>
+              <li>남은 연차보다 많은 휴가는 승인되지 않고, 같은 팀 같은 날 휴가는 경고가 뜹니다. 마감한 달의 근태는 고칠 수 없습니다.</li>
+            </ul>
+          </div>
+          <div class="intro-col">
+            <h3>저장 방식과 보는 방법</h3>
+            <ul>
+              <li>변경 내용은 <b>이 브라우저(localStorage)에만</b> 저장됩니다. 새로고침해도 남고, 다른 사람에게는 보이지 않습니다.</li>
+              <li>오른쪽 위 <b>가상 데이터 초기화</b>를 누르면 처음 자료로 돌아갑니다.</li>
+              <li>버튼·표 머리글·배지 위에 마우스를 올리면 설명이 뜹니다. 터치 기기는 <b>? 설명 보기</b>를 켜고 누르세요.</li>
+              <li>아래 <b>따라해보기</b>에서 "이 위치 보기"를 누르면 해당 화면으로 이동해 자리를 잠깐 강조합니다.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="box" id="guideBox">
+      <div class="box-head"><h2>따라해보기 (7가지 시나리오)</h2><button class="btn sm" data-fold="guideBody">접기</button></div>
+      <div id="guideBody">
+        <p class="muted">각 단계의 <b>이 위치 보기</b>를 누르면 해당 탭으로 이동하고 그 자리를 잠깐 강조합니다. 실제로 눌러 보고 숫자가 어떻게 바뀌는지 확인하세요.</p>
+        <div id="scenarios"></div>
+      </div>
+    </section>
+
+    <nav class="tabs" id="tabs"></nav>
+    <main id="main"></main>
+
+    <footer class="foot">교육용 가상 자료입니다. 실제 인사·근태 실무에 사용할 수 없습니다. 이 시연은 Claude Code로 만든 교육 예제이며 자료는 이 브라우저에만 저장됩니다.</footer>
+  </div>
+
+  <script src="data/seed.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>

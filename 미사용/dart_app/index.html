@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DART 공시검색</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="head">
+      <div>
+        <h1>DART 공시검색</h1>
+        <p class="sub">금융감독원 OpenDART 공시검색 API(list.json)로 회사·기간·유형별 공시 목록을 조회합니다.</p>
+      </div>
+      <a class="btn" href="https://opendart.fss.or.kr" target="_blank" rel="noopener">OpenDART 사이트 ↗</a>
+    </header>
+
+    <section class="card">
+      <form id="searchForm" class="form">
+        <div class="row">
+          <label class="grow corp">
+            회사명 (선택 · 입력하면 고유번호를 찾아 줍니다)
+            <input type="text" id="corpName" placeholder="예: 삼성전자" autocomplete="off">
+            <ul id="corpList" class="suggest hidden"></ul>
+          </label>
+          <label>
+            고유번호 corp_code
+            <input type="text" id="corp_code" name="corp_code" placeholder="8자리" maxlength="8" pattern="\d{8}">
+          </label>
+          <label>
+            시작일 bgn_de
+            <input type="date" id="bgn_de">
+          </label>
+          <label>
+            종료일 end_de
+            <input type="date" id="end_de">
+          </label>
+        </div>
+        <div class="row">
+          <label>
+            공시유형 pblntf_ty
+            <select name="pblntf_ty">
+              <option value="">전체</option>
+              <option value="A">A · 정기공시</option>
+              <option value="B">B · 주요사항보고</option>
+              <option value="C">C · 발행공시</option>
+              <option value="D">D · 지분공시</option>
+              <option value="E">E · 기타공시</option>
+              <option value="F">F · 외부감사관련</option>
+              <option value="G">G · 펀드공시</option>
+              <option value="H">H · 자산유동화</option>
+              <option value="I">I · 거래소공시</option>
+              <option value="J">J · 공정위공시</option>
+            </select>
+          </label>
+          <label>
+            법인구분 corp_cls
+            <select name="corp_cls">
+              <option value="">전체</option>
+              <option value="Y">Y · 유가</option>
+              <option value="K">K · 코스닥</option>
+              <option value="N">N · 코넥스</option>
+              <option value="E">E · 기타</option>
+            </select>
+          </label>
+          <label>
+            최종보고서만 last_reprt_at
+            <select name="last_reprt_at">
+              <option value="N">N · 정정 포함 전체</option>
+              <option value="Y">Y · 최종보고서만</option>
+            </select>
+          </label>
+          <label>
+            정렬 sort
+            <select name="sort">
+              <option value="date">접수일자</option>
+              <option value="crp">회사명</option>
+              <option value="rpt">보고서명</option>
+            </select>
+          </label>
+          <label>
+            정렬방법 sort_mth
+            <select name="sort_mth">
+              <option value="desc">내림차순</option>
+              <option value="asc">오름차순</option>
+            </select>
+          </label>
+          <label>
+            페이지당 page_count
+            <select name="page_count">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </label>
+          <button type="submit" class="btn primary" id="btnSearch">공시 검색</button>
+          <button type="button" class="btn" id="btnReset">초기화</button>
+        </div>
+        <p class="hint">고유번호를 비우면 검색기간이 최근 3개월로 제한됩니다. 날짜를 비우면 오늘 기준으로 조회합니다.</p>
+      </form>
+    </section>
+
+    <section class="card" id="resultCard">
+      <div class="result-head">
+        <h2 id="resultTitle">검색 결과</h2>
+        <span id="resultMeta" class="meta"></span>
+      </div>
+      <div id="msg" class="msg hidden"></div>
+      <div class="tbl-wrap hidden" id="tblWrap">
+        <table>
+          <thead>
+            <tr><th>접수일자</th><th>법인구분</th><th>회사명</th><th>종목코드</th><th>보고서명</th><th>제출인</th><th>비고</th><th>접수번호</th><th>AI 요약</th></tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="pager hidden" id="pager">
+        <button class="btn sm" id="prevPage">◀ 이전</button>
+        <span id="pageInfo"></span>
+        <button class="btn sm" id="nextPage">다음 ▶</button>
+      </div>
+    </section>
+
+    <details class="card legend">
+      <summary>비고(rm) 문자와 보고서명 접두어 뜻 보기</summary>
+      <div class="legend-grid">
+        <div>
+          <h3>비고 문자</h3>
+          <ul>
+            <li><b>유</b> 유가증권시장본부 소관</li><li><b>코</b> 코스닥시장본부 소관</li><li><b>채</b> 채권상장법인 공시</li><li><b>넥</b> 코넥스시장 소관</li>
+            <li><b>공</b> 공정거래위원회 소관</li><li><b>연</b> 연결부분 포함</li><li><b>정</b> 제출 후 정정신고 있음</li><li><b>철</b> 철회(간주)됨</li>
+          </ul>
+        </div>
+        <div>
+          <h3>보고서명 접두어</h3>
+          <ul>
+            <li><b>[기재정정]</b> 기재내용 변경 제출</li><li><b>[첨부정정]</b> 첨부내용 변경 제출</li><li><b>[첨부추가]</b> 첨부서류 추가 제출</li><li><b>[변경등록]</b> 유동화계획 변경</li>
+            <li><b>[연장결정]</b> 신탁계약 연장</li><li><b>[발행조건확정]</b> 발행조건 확정</li><li><b>[정정명령부과]</b> 금감원 정정명령</li><li><b>[정정제출요구]</b> 금감원 정정제출요구</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <footer class="foot">자료 출처: 금융감독원 전자공시시스템 OpenDART. AI 요약은 Google Gemini가 공시 원문을 읽고 만든 참고용 요약이며, 정확한 내용은 반드시 원문을 확인하세요. 인증키는 서버(.env)에만 있고 화면으로 내려오지 않습니다.</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
